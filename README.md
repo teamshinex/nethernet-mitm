@@ -17,5 +17,7 @@ host와 relay에 있는 내토큰 은 동일해야 합니다.
 host에 `--upstream-lan broadcast` 가 있을 경우에는 LAN 서버 경유,
 `--upstream-http http://127.0.0.1:19132` 가 있을 경우에는 19132로 열린 BDS를 경유합니다.
 
+join에 있는 중계서버 주소 입력칸에 wss:// 를 붙여야 작동하는 경우도 있을 수 있어요. (relay에 tailscale 쓰는 경우엔 특히)
+
 제 컴퓨터에서는 똑바로 작동하지만, 만약 오류가 나거나 실행이 원활히 되지 않을 경우에는 문의 바랍니다.
 https://discord.gg/4SkaEJ3ub8
