@@ -1,0 +1,22 @@
+{
+  "name": "nethernet-mitm",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Minecraft Bedrock NetherNet relay: play on a friend's world without port forwarding.",
+  "type": "module",
+  "scripts": {
+    "relay": "node src/relay.js",
+    "host": "node src/host.js",
+    "join": "node src/join.js"
+  },
+  "engines": {
+    "node": ">=18.5.0"
+  },
+  "dependencies": {
+    "ws": "8.22.0",
+    "node-datachannel": "0.33.4",
+    "protodef": "^1.15.0",
+    "prismarine-nbt": "^2.5.0",
+    "uuid-1345": "^1.0.2"
+  }
+}
